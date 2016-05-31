@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="pageerrorsfile">/tmp/logger.log</Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %p [%t] %C{2} - %m%n"/>
+        </Console>
+        <File name="PAGEERRORS" fileName="${pageerrorsfile}">
+            <PatternLayout>
+                <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.apache.log4j.xml" level="info"/>
+        <Root level="debug">
+            <AppenderRef ref="STDOUT" level="TRACE"/>
+            <AppenderRef ref="PAGEERRORS"/>
+        </Root>
+    </Loggers>
+</Configuration>

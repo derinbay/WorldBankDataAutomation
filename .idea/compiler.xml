@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="helpers" />
+        <module name="main" />
+        <module name="selenium" />
+        <module name="test-api" />
+        <module name="worldbanktests" />
+        <module name="worldbanktests-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="apitest" target="1.8" />
+      <module name="apitest-api" target="1.8" />
+      <module name="backoffice" target="1.8" />
+      <module name="backoffice-api" target="1.8" />
+      <module name="callcenter" target="1.8" />
+      <module name="callcenter-api" target="1.8" />
+      <module name="database" target="1.8" />
+      <module name="helpers" target="1.8" />
+      <module name="main" target="1.5" />
+      <module name="mallfront" target="1.8" />
+      <module name="mallfront-api" target="1.8" />
+      <module name="mobileweb" target="1.8" />
+      <module name="mobileweb-api" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="poolwebservice" target="1.8" />
+      <module name="selenium" target="1.5" />
+      <module name="selleroffice" target="1.8" />
+      <module name="selleroffice-api" target="1.8" />
+      <module name="subtitler" target="1.5" />
+      <module name="test-api" target="1.8" />
+      <module name="worldbank-tests" target="1.8" />
+      <module name="WorldBankData" target="1.5" />
+      <module name="worldbanktests" target="1.8" />
+      <module name="worldbanktests-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

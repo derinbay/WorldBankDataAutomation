@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WorldBankData.iml" filepath="$PROJECT_DIR$/WorldBankData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-api/test-api.iml" filepath="$PROJECT_DIR$/test-api/test-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worldbanktests/worldbanktests.iml" filepath="$PROJECT_DIR$/worldbanktests/worldbanktests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worldbanktests-api/worldbanktests-api.iml" filepath="$PROJECT_DIR$/worldbanktests-api/worldbanktests-api.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/poolwebservice" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/worldbanktests/pom.xml" />
+        <option value="$PROJECT_DIR$/test-api/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/apitest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/apitest/pom.xml" />
+        <option value="$PROJECT_DIR$/backoffice-api/pom.xml" />
+        <option value="$PROJECT_DIR$/backoffice/pom.xml" />
+        <option value="$PROJECT_DIR$/callcenter-api/pom.xml" />
+        <option value="$PROJECT_DIR$/callcenter/pom.xml" />
+        <option value="$PROJECT_DIR$/database/pom.xml" />
+        <option value="$PROJECT_DIR$/mallfront-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mallfront/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileweb-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileweb/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/pom.xml" />
+        <option value="$PROJECT_DIR$/poolwebservice/pom.xml" />
+        <option value="$PROJECT_DIR$/selleroffice-api/pom.xml" />
+        <option value="$PROJECT_DIR$/selleroffice/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
