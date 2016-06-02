@@ -11,7 +11,12 @@ public class InternetExplorer extends Browser {
 
     @Override
     protected void initInLocal() {
-        webDriver = new InternetExplorerDriver();
+        String fileLocation = ClassLoader.getSystemResource("IEDriverServer.exe").getFile();
+        System.setProperty("webdriver.ie.driver", fileLocation);
+        DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
+        capability.setBrowserName("internet explorer");
+        capability.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
+        webDriver = new InternetExplorerDriver(capability);
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }

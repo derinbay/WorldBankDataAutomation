@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class WorldBankDataTest extends BaseTest {
 
     @Test
-    public void shouldGetDatas() {
+    public void shouldNavigateWorldBankCountryDatas() {
         HomePage homePage = new HomePage();
         Visitor visitor = Visitor.aVisitor().open(homePage);
         assertThat("When a visitor browses the worldbank website url, ", visitor, shouldSeePageOpened(homePage));
