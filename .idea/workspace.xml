@@ -5,66 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Open Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b88ab071-4599-4069-bd6b-5d100a9591c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/BaseWorldBankPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/BaseWorldBankSubPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/HICPage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 01Haz2016 002146 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 01Haz2016 010753 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 01Haz2016 011718 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 28May2016 234548 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 28May2016 235656 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 28May2016 235732 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 000809 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 014304 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 022810 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 023015 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 023212 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 023406 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 023539 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 024458 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 024833 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 025212 - Visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/worldbanktests/screenshots/WorldBankDataTest - shouldGetDatas - 29May2016 030016 - Visitor.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/Browser$2.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/Browser$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/Config.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/CsvGenerator.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/CsvGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/URLUtil.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/URLUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/Browser.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/Browser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/CountryData.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/CountryData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/DataList.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/DataList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/users/Visitor.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/users/Visitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/users/VisitorPool.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/models/users/VisitorPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/ResponseStatusReporter$1.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/ResponseStatusReporter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/ResponseStatusReporter.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/ResponseStatusReporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/TestContext.class" afterPath="$PROJECT_DIR$/test-api/target/classes/org/worldbank/test/TestContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers$1.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers$2.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/matchers/Matchers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/CountryPages.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/CountryPages.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/DataByCountryPage.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/DataByCountryPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/DataPage.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/DataPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/HomePage.class" afterPath="$PROJECT_DIR$/worldbanktests-api/target/classes/pages/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests/target/test-classes/WorldBankDataTest.class" afterPath="$PROJECT_DIR$/worldbanktests/target/test-classes/WorldBankDataTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/Config.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/CsvGenerator.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/CsvGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/URLUtil.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/URLUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/Browser.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/Browser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/CountryData.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/CountryData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/DataList.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/DataList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/users/Visitor.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/users/Visitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/users/VisitorPool.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/users/VisitorPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/test/ResponseStatusReporter.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/test/ResponseStatusReporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/test/TestContext.java" afterPath="$PROJECT_DIR$/test-api/src/main/java/org/worldbank/test/TestContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/src/main/java/matchers/Matchers.java" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/matchers/Matchers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/CountryPages.java" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/CountryPages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/DataByCountryPage.java" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/DataByCountryPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/DataPage.java" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/DataPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/HomePage.java" afterPath="$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worldbanktests/src/test/WorldBankDataTest.java" afterPath="$PROJECT_DIR$/worldbanktests/src/test/WorldBankDataTest.java" />
-    </list>
+    <list default="true" id="b88ab071-4599-4069-bd6b-5d100a9591c5" name="Default" comment="" />
     <ignored path="subtitler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/main/target/" />
@@ -92,72 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorldBankDataTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WorldBankDataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worldbanktests/src/test/WorldBankDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+            <state relative-caret-position="238">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matchers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/matchers/Matchers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/DataList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HICPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/HICPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseWorldBankSubPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/BaseWorldBankSubPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-              <folding>
-                <element signature="e#3218#3219#0" expanded="true" />
-                <element signature="e#3283#3284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -443,76 +325,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="worldbanktests-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worldbanktests-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worldbanktests-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldBankDataAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="worldbanktests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -578,7 +390,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WorldBankDataTest.shouldGetDatas">
+  <component name="RunManager" selected="JUnit.WorldBankDataTest.shouldNavigateWorldBankCountryDatas">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -980,16 +792,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="WorldBankDataTest.shouldGetDatas" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration default="false" name="WorldBankDataTest.shouldNavigateWorldBankCountryDatas" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="worldbanktests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WorldBankDataTest" />
-      <option name="METHOD_NAME" value="shouldGetDatas" />
+      <option name="METHOD_NAME" value="shouldNavigateWorldBankCountryDatas" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dselenium_env=prod -Dbrowser=firefox" />
+      <option name="VM_PARAMETERS" value="-ea -Dselenium_env=prod -Dbrowser=iexplorer" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -1002,7 +814,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WorldBankDataTest.shouldGetDatas" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WorldBankDataTest.shouldNavigateWorldBankCountryDatas" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1042,20 +854,11 @@
       <workItem from="1464729214750" duration="4037000" />
       <workItem from="1464733674852" duration="9080000" />
       <workItem from="1464894852852" duration="52000" />
-      <workItem from="1464896082249" duration="82000" />
+      <workItem from="1464896082249" duration="1103000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.01 at 02h 50m 57s.xml">
-      <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.01 at 03h 27m 36s.xml">
-      <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.01 at 03h 34m 25s.xml">
-      <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.01 at 03h 37m 58s.xml">
       <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
     </history-entry>
@@ -1077,40 +880,49 @@
     <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.01 at 03h 59m 54s.xml">
       <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WorldBankDataTest_shouldGetDatas - 2016.06.02 at 22h 36m 37s.xml">
+      <configuration name="WorldBankDataTest.shouldGetDatas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorldBankDataTest_shouldNavigateWorldBankCountryDatas - 2016.06.02 at 22h 45m 12s.xml">
+      <configuration name="WorldBankDataTest.shouldNavigateWorldBankCountryDatas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorldBankDataTest_shouldNavigateWorldBankCountryDatas - 2016.06.02 at 22h 52m 57s.xml">
+      <configuration name="WorldBankDataTest.shouldNavigateWorldBankCountryDatas" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32748000" />
+    <option name="totallyTimeSpent" value="33769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29016393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18283166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40468228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40491804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29016393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1127,7 +939,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="40" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1136,7 +948,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/Navigate.java" />
     <entry file="file://$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/Paging.java" />
     <entry file="file://$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/Pageable.java" />
     <entry file="file://$PROJECT_DIR$/test-api/src/main/java/org/worldbank/models/FormActionType.java" />
@@ -1374,16 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worldbanktests/src/test/WorldBankDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/matchers/Matchers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -1422,8 +1223,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worldbanktests-api/src/main/java/pages/BaseWorldBankSubPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countryReport.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worldbanktests/src/test/WorldBankDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
