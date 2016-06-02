@@ -5,9 +5,18 @@ package org.worldbank.models;
  */
 public class CountryData {
 
+    private String countryName;
     private String gdp;
     private String population;
     private String co2;
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
+    }
 
     public String getGdp() {
         return gdp;
@@ -33,7 +42,8 @@ public class CountryData {
         this.co2 = co2;
     }
 
-    public CountryData(String gdp, String population, String co2) {
+    public CountryData(String countryName, String gdp, String population, String co2) {
+        this.countryName = countryName;
         this.gdp = gdp;
         this.population = population;
         this.co2 = co2;

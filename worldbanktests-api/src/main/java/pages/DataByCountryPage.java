@@ -2,14 +2,11 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.worldbank.Config;
-import org.worldbank.models.DataList;
-import org.worldbank.models.Page;
-import org.worldbank.models.users.Visitor;
 
 /**
  * Created by Taylan on 29.05.2016.
  */
-public class DataByCountryPage extends Page<Visitor> {
+public class DataByCountryPage extends BaseWorldBankSubPage {
 
     private final static String PAGE_URL = Config.websiteSubUrl + "country";
 
@@ -17,7 +14,12 @@ public class DataByCountryPage extends Page<Visitor> {
         this.url = PAGE_URL;
     }
 
-    public DataList getCountries() {
-        return new DataList(this, By.xpath("//*[@id='block-views-countries-block_1']//a"));
+    public HICPage goToHICPage() {
+        browser.clickTo(By.linkText("High income"));
+
+        HICPage hicPage = new HICPage();
+        browser.changePage(hicPage);
+
+        return hicPage;
     }
 }

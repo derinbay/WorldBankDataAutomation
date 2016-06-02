@@ -1,7 +1,5 @@
 package org.worldbank.models;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -10,15 +8,10 @@ import java.util.List;
 
 public class DataList extends WebComponent {
 
-    private static final Logger logger = LogManager.getLogger(DataList.class);
-
     protected WebComponent container;
     protected By by;
-    protected String xpath;
     protected List<WebElement> elements;
     private int selectedIndex;
-
-    public DataList() {}
 
     public DataList(WebComponent container, By by) {
         this.browser = container.browser();
@@ -30,10 +23,6 @@ public class DataList extends WebComponent {
 
     public void refresh() {
         elements = browser.findElements(by);
-    }
-
-    public int size() {
-        return elements.size();
     }
 
     public WebElement getSelected() {
@@ -56,6 +45,10 @@ public class DataList extends WebComponent {
             }
         }
         return null;
+    }
+
+    public int size() {
+        return elements.size();
     }
 
     public List<String> getElementTexts() {

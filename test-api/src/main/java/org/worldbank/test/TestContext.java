@@ -26,10 +26,6 @@ public class TestContext {
         contexts.set(new TestContext(testClassName, testMethodName));
     }
 
-    public static void remove() {
-        contexts.remove();
-    }
-
     public static void closeBrowsers() {
         if (TestContext.get() != null) {
             for (Visitor visitor : TestContext.get().users) {

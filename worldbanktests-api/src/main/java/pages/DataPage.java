@@ -3,13 +3,11 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.worldbank.Config;
-import org.worldbank.models.Page;
-import org.worldbank.models.users.Visitor;
 
 /**
  * Created by Taylan on 28.05.2016.
  */
-public class DataPage extends Page<Visitor> {
+public class DataPage extends BaseWorldBankSubPage {
 
     final static String PAGE_URL = Config.websiteSubUrl;
 
