@@ -1,12 +1,9 @@
 package org.worldbank;
 
-import org.apache.logging.log4j.Logger;
-
 import java.io.InputStream;
 import java.util.Properties;
 
 import static org.apache.commons.lang3.StringUtils.isBlank;
-import static org.apache.logging.log4j.LogManager.getLogger;
 
 public class Config {
 
@@ -21,8 +18,6 @@ public class Config {
     public static final Properties properties;
     public static final int failedTestRetryCount;
     private static final String environment;
-
-    private static final Logger logger = getLogger(Config.class);
 
     static {
         environment = getEnv();

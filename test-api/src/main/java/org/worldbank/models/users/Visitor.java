@@ -36,18 +36,6 @@ public class Visitor<V extends Visitor> implements Account<VisitorPool> {
         return (V) this;
     }
 
-    public <P extends Page> V openAsIPhone6(P page) {
-        return openAsIPhone6(page, null);
-    }
-
-    public <P extends Page> V openAsIPhone6(P page, Set<Cookie> cookies) {
-        this.browser = Browser.openThe(page, cookies).byMe(this);
-        this.origin().browser = this.browser;
-        this.browser.resizeWindow(375, 667);
-        this.browser.changePage(page);
-        return (V) this;
-    }
-
     public <P extends Page<V>> V goTo(P page) {
         this.browser.goTo(page);
         return (V) this;

@@ -1,20 +1,47 @@
 package pages;
 
-import org.openqa.selenium.By;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.worldbank.models.CountryData;
-import org.worldbank.models.Page;
-import org.worldbank.models.users.Visitor;
+
+import static org.apache.logging.log4j.LogManager.getLogger;
 
 /**
  * Created by Taylan on 1.06.2016.
  */
-public class CountryPages extends Page<Visitor> {
+public class CountryPages extends BaseWorldBankSubPage {
 
-    public CountryData getPageValues() {
-        String gdp = browser.findElement(By.xpath("//*[contains(text(), 'GDP at market prices')]/../../../following-sibling::div//*[@class='human-readable']")).getText();
-        String population = browser.findElement(By.xpath("//*[contains(text(), 'Population, total')]/../../../following-sibling::div//*[@class='human-readable']")).getText();;
-        String co2 = browser.findElement(By.xpath("//*[contains(text(), 'CO2 emissions')]/../following-sibling::div//*[contains(@class, 'wbapi-data-value')]//*[@class='field-content']")).getText();
+    private static final Logger logger = getLogger(CountryPages.class);
 
-        return new CountryData(gdp, population, co2);
+    @FindBy(xpath = "//*[contains(text(), 'GDP at market prices')]/../../../following-sibling::div//*[@class='human-readable']")
+    private WebElement gdpElement;
+
+    @FindBy(xpath = "//*[contains(text(), 'Population, total')]/../../../following-sibling::div//*[@class='human-readable']")
+    private WebElement populationElement;
+
+    @FindBy(xpath = "//*[contains(text(), 'CO2 emissions')]/../following-sibling::div//*[contains(@class, 'wbapi-data-value')]//*[@class='field-content']")
+    private WebElement co2Element;
+
+    public CountryData getPageValues(String countryName) {
+        String gdp = "-", population = "-", co2 = "-";
+        browser.loadElements();
+
+        if (browser.isWebElementPresent(gdpElement)) {
+            gdp = gdpElement.getText();
+            logger.info("GDP at market prices (current US$) for country {" + countryName + "} is " + gdp);
+        }
+
+        if (browser.isWebElementPresent(populationElement)) {
+            population = populationElement.getText();
+            logger.info("Population, total for country {" + countryName + "} is " + population);
+        }
+
+        if (browser.isWebElementPresent(co2Element)) {
+            co2 = co2Element.getText();
+            logger.info("CO2 emissions (metric tons per capita) for country {" + countryName + "} is " + co2);
+        }
+
+        return new CountryData(countryName, gdp, population, co2);
     }
 }
